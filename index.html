@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title> Home | Dylan Wansbrough </title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	<link rel="icon" href="images/icon.png" type="image/x-icon"> <!-- gets the image icon and makes it the tab icon -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-	<div id="header"><h1>Dylan Wansbrough</h1></div>
-<h1>Hello World</h1>
-<p>This is a test page</p>
-<video width="440" height="300" autoplay loop>
-  <source src="Sequence 06.mp4" type="video/mp4">
-</video>
+	<nav> <!-- The Navigation bar the is fixed to the top of the webpage-->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<div id="fix"></div> <!-- This Div here adds a 45px gap at the very top since the nav is fixed the next thing on the page will go under it so this stops it from being a overlap and gives it a little extra room -->
+
+		<div id="box">
+			<div id="temp"><h1>Dylan Wansbrough</h1></div>
+		</div> <!--closing div for box -->
+
+		<div id="box2">
+			<h2>A few examples of my work</h2>
+			<div id="text">
+				<video width="440" height="300" autoplay loop>
+				  	<source src="Sequence 06.mp4" type="video/mp4">
+				</video>
+				<p>An example of some animation</p>
+			</div>
+
+			<div id="text2">
+				<img src="images/Example of 3D.jpg" width="480" height="250">
+				<p>An example of some 3D modelling</p>
+			</div>
+
+			<div id="text3">
+				<img src="images/Example of Design.png" width="300" height="280">
+				<p>An example of some JavaScript</p>
+			</div>			
+		</div> <!--closing div for box -->
+
+	<div id="fix2"></div>
+	<footer> 
+    <!-- The footer that is fixed to stay at the bottom, the margin to stop the same thing happening with the header is in the box-->
+        <div id="footertext"> 
+        	<p>Made by Dylan Wansbrough</p>
+        </div><!-- Closing div for "footertext" -->
+    </footer>
+
 </body>
 </html>
