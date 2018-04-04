@@ -14,7 +14,7 @@ html, body {
     overflow-x: hidden;
 }
 
-p{
+p, li{
 	 font-family: 'Roboto', sans-serif;
 }
 
@@ -62,10 +62,9 @@ nav a:hover{
 
 #box{
 	background-color: #8ba8c1;
-	margin-left: -0px;
-	margin-right: -10px;
 	padding-bottom: 15%;
 	text-align: center;
+	width: 100%;
 }
 
 #box2{
@@ -115,10 +114,7 @@ footer{
     background-color: #000;
     margin: 0 auto;
     text-align: center;
-}
-
-#footertext{
-	padding-top: 10px;
+    margin-left: -10px;
 }
 
 #fix2{
