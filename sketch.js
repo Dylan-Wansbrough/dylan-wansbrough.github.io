@@ -13,19 +13,23 @@ function setup() {
 
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
+  window.resizeTo(windowWidth, windowHeight/1.05);
 
   background(5, 42, 73);
 }
 
+
+
+
 function draw() {
   if(!start){create();}
-  background(5, 42, 73);
+  background(68, 68, 68);
   var i = 0;
   while(i < counter){
     x = ellipseX[i];
     y = ellipseY[i];
-    fill(5, 42, 73);
-    stroke(5, 42, 73);
+    fill(68, 68, 68);
+    stroke(68, 68, 68);
     ellipse(x,y, 5,5);
 
     vx = velocityX[i];
@@ -49,7 +53,7 @@ function draw() {
         xdistance = x - x2;
         ydistance = y - y2;
         if(xdistance < 150 && xdistance > -150 && ydistance < 150 && ydistance > -150){
-        stroke(75, 208, 244);
+        stroke(88, 211, 57);
         line(x, y, x2, y2);
         }
       }
@@ -66,9 +70,11 @@ function draw() {
   }
 
 stroke(0);
-fill(0);
-textSize(200);
-text("Dylan Wansrough", windowWidth/10, windowHeight/2);
+fill(219, 219, 219);
+strokeWeight(10);
+textSize(180);
+text("Dylan Wansbrough", windowWidth/10, windowHeight/2);
+strokeWeight(1);
 }
 
 
