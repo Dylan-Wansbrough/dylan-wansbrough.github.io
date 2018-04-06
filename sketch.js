@@ -1,10 +1,12 @@
 var ellipseX = []; //Array of X values for the bubbles
 var ellipseY = []; //Arry of Y values for the bubbles
-var velocityX = [-1,1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1]; //X value velocity
-var velocityY = [-0.5,-0.5,0.5,-0.5,0.5,-0.5,0.5,0.5,0.5,-0.5,0.5,0.5,-0.5,0.5,-0.5,0.5,0.5,-0.5,0.5]; //Y value velocity
-var x, y, vx, vy, xdistance, ydistance; //various values
-var counter = 250;
+var velocityX = []; //X value velocity
+var velocityY = []; //Y value velocity
+var x, y, vx, vy, xdistance, ydistance, velX, velY; //various values
+var counter = 50;
 var start = false;
+var randomX = true;
+var randomY = true;
 
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight/1.05);
@@ -22,11 +24,9 @@ function draw() {
   while(i < counter){
     x = ellipseX[i];
     y = ellipseY[i];
-    fill(179, 182, 183);
-    // stroke(179, 182, 183);
-    stroke(75, 208, 244);
+    fill(5, 42, 73);
+    stroke(5, 42, 73);
     ellipse(x,y, 5,5);
-
 
     vx = velocityX[i];
     vy = velocityY[i];
@@ -68,7 +68,6 @@ function draw() {
 stroke(0);
 fill(0);
 textSize(200);
-// textFont(metaBold, 44);
 text("Dylan Wansrough", windowWidth/10, windowHeight/2);
 }
 
@@ -78,8 +77,19 @@ function create(){
     for (index = 0; index < counter; index += 1) {
       var random = Math.floor((Math.random() * windowWidth) + 1);
       var random2 = Math.floor((Math.random() * windowHeight/1.05) + 1);
+
+      if(randomX){velX = 1; randomX = false;}else{
+        velX = (-1); randomX = true;
+      }
+      if(randomY){velY = 0.5; randomY = false;}else{
+        velY = (-0.5); randomY = true;
+      }
+
+
         ellipseX[index] = random;
         ellipseY[index] = random2;
+        velocityX[index] = velX;
+        velocityY[index] = velY;
     }
     start = true;
 }
