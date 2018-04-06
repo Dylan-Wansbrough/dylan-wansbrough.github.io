@@ -8,6 +8,8 @@ var start = false;
 var randomX = true;
 var randomY = true;
 
+var textSi;
+
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight/1.05);
 
@@ -72,7 +74,8 @@ function draw() {
 stroke(0);
 fill(219, 219, 219);
 strokeWeight(10);
-textSize(180);
+textSi = (windowWidth/10);
+textSize(textSi);
 text("Dylan Wansbrough", windowWidth/10, windowHeight/2);
 strokeWeight(1);
 }
