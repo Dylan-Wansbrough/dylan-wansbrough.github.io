@@ -25,13 +25,13 @@ function setup() {
 
 function draw() {
   if(!start){create();}
-  background(68, 68, 68);
+  background(65, 65, 65);
   var i = 0;
   while(i < counter){
     x = ellipseX[i];
     y = ellipseY[i];
-    fill(68, 68, 68);
-    stroke(68, 68, 68);
+    fill(65, 65, 65);
+    stroke(65, 65, 65);
     ellipse(x,y, 5,5);
 
     vx = velocityX[i];
@@ -79,9 +79,9 @@ function draw() {
     i += 1;
   }
 
-stroke(0);
-fill(219, 219, 219);
-strokeWeight(10);
+noStroke();
+fill(249, 249, 249);
+// strokeWeight(10);
 textSi = (windowWidth/12);
 textSize(textSi);
 text("Dylan Wansbrough", windowWidth/6.5, windowHeight/2);
