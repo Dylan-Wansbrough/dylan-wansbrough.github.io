@@ -68,6 +68,14 @@ function draw() {
     ellipseY[i] = y;
 
 
+    xdistance = x - mouseX;
+    ydistance = y - mouseY;
+    if(xdistance < 150 && xdistance > -150 && ydistance < 150 && ydistance > -150){
+    stroke(88, 211, 57);
+    line(x, y, mouseX, mouseY);
+    }
+
+
     i += 1;
   }
 
