@@ -9,6 +9,12 @@ h2{
 	 font-size: 40px;
 }
 
+h3{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 30px;
+}
+
+
 html, body {
     overflow-x: hidden;
     margin: 0;
@@ -64,13 +70,6 @@ nav a:hover{
 
 /*------------------------[Index]-------------------------------*/
 
-#box{
-	background-color: #8ba8c1;
-	padding-bottom: 15%;
-	text-align: center;
-	width: 100%;
-}
-
 #box2{
 	margin-left: -0px;
 	margin-right: -10px;
@@ -104,9 +103,8 @@ nav a:hover{
 }
 
 
-#temp{
-	padding-top: 50px;
-}
+/*------------------------[Portfolio]-------------------------------*/
+
 
 /*------------------------[Footer]-------------------------------*/
 footer{
