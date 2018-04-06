@@ -51,11 +51,15 @@ nav a{
 }
 
 nav a:hover{
-	color: #FF9100;
+	color: #58d339;
 }
 
 #fix{
 	height: 10px;
+}
+
+#fix3{
+	height: 12px;
 }
 
 /*------------------------[Index]-------------------------------*/

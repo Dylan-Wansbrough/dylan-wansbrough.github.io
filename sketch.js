@@ -74,9 +74,9 @@ function draw() {
 stroke(0);
 fill(219, 219, 219);
 strokeWeight(10);
-textSi = (windowWidth/10);
+textSi = (windowWidth/12);
 textSize(textSi);
-text("Dylan Wansbrough", windowWidth/10, windowHeight/2);
+text("Dylan Wansbrough", windowWidth/6.5, windowHeight/2);
 strokeWeight(1);
 }
 
