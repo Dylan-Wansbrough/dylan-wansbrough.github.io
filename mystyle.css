@@ -187,6 +187,15 @@ div.desc {
 	height: 150px;
 	width: 50%;
 }
+/*------------------------[About]-------------------------------*/
+#project3{
+	margin-left: 25%;
+	background-color: #f9b3b3; 
+	margin-bottom: 20px; 
+	height: 50px;
+	width: 50%;
+}
+
 
 /*------------------------[Footer]-------------------------------*/
 footer{
