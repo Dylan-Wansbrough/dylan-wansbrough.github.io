@@ -133,7 +133,7 @@ nav a:hover{
 
 #projText{
 	text-align: justify;
-	padding-left: 10px;
+	float: none;
 }
 #projTextH1{
 	text-align: center;
