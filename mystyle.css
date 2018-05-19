@@ -105,6 +105,39 @@ nav a:hover{
 
 /*------------------------[Portfolio]-------------------------------*/
 
+#portfolio{
+	text-align: center;
+}
+
+#line{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25%;
+	background-color: black;
+	width: 50%;
+	height: 3px;
+}
+
+#project{
+	margin-left: 25%;
+/*	background-color: #fe2112;*/
+	height: 300px;
+	width: 50%;
+}
+
+#projImage{
+	margin-left: -3%;
+	width: 50%;
+	float: left;
+}
+
+#projText{
+	text-align: justify;
+}
+#projTextH1{
+	text-align: center;
+}
+
 
 /*------------------------[Footer]-------------------------------*/
 footer{
