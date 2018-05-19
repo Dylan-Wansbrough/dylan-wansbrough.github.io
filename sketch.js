@@ -25,6 +25,44 @@ function setup() {
 
 function draw() {
   if(!start){create();}
+  thing();
+  other();
+}
+
+
+
+function create(){
+    for (index = 0; index < counter; index += 1) {
+      var random = Math.floor((Math.random() * windowWidth) + 1);
+      var random2 = Math.floor((Math.random() * windowHeight/1.05) + 1);
+
+      if(randomX){velX = 1; randomX = false;}else{
+        velX = (-1); randomX = true;
+      }
+      if(randomY){velY = 0.5; randomY = false;}else{
+        velY = (-0.5); randomY = true;
+      }
+
+
+        ellipseX[index] = random;
+        ellipseY[index] = random2;
+        velocityX[index] = velX;
+        velocityY[index] = velY;
+    }
+    start = true;
+}
+
+function other(){
+  noStroke();
+  fill(249, 249, 249);
+  // strokeWeight(10);
+  textSi = (windowWidth/12);
+  textSize(textSi);
+  text("Dylan Wansbrough", windowWidth/6.5, windowHeight/2);
+  strokeWeight(1);
+}
+
+function thing(){
   background(65, 65, 65);
   var i = 0;
   while(i < counter){
