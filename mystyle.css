@@ -11,7 +11,8 @@ h2{
 
 h3{
 	 font-family: 'Roboto', sans-serif;
-	 font-size: 30px;
+	 font-size: 30px; 
+    font-size: 1.8vw;
 }
 
 
@@ -22,6 +23,8 @@ html, body {
 
 p, li{
 	 font-family: 'Roboto', sans-serif;
+	 font-size: 10px; 
+    font-size: 1.1vw;
 }
 
 /*------------------------[Header]-------------------------------*/
