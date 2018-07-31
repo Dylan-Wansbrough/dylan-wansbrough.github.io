@@ -1,12 +1,14 @@
 /*------------------------[General]-------------------------------*/
 h1{
 	 font-family: 'Roboto', sans-serif;
-	 font-size: 50px;
+	  font-size: 50px; 
+    font-size: 2.2vw;
 }
 
 h2{
 	 font-family: 'Roboto', sans-serif;
-	 font-size: 40px;
+	  font-size: 40px; 
+    font-size: 2vw;
 }
 
 h3{
@@ -132,7 +134,9 @@ a:hover{
 #project{
 	margin-left: 25%;
 
-	height: 300px;
+	max-height: 100px;
+	max-height: 300px;
+	height: auto;
 	width: 50%;
 }
 
@@ -200,7 +204,9 @@ div.desc {
 #project2{
 	margin-left: 25%;
 
-	height: 150px;
+	max-height: 100px;
+	max-height: 150px;
+	height: auto;
 	width: 50%;
 }
 
