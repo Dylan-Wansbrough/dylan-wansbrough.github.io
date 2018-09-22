@@ -1,50 +1,220 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
-	<title> Home | Dylan Wansbrough </title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<link rel="icon" href="images/icon.png" type="image/x-icon"> <!-- gets the image icon and makes it the tab icon -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<script src="p5.min.js"></script>
-	<script src="sketch.js"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Dylan Wansbrough</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon"> <!-- gets the image icon and makes it the tab icon -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-	<nav> <!-- The Navigation bar the is fixed to the top of the webpage-->
-		<ul>
-			<div id="fix3"></div>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul>
-	</nav>
+	<section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="#features">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="banner-text text-center">
+                    <h1>Dylan Wansbrough</h1>
+                </div><!-- banner text -->
+            </div>
+        </div>
+    </section><!-- banner -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <span class="icon icon-tools"></span>
+                    <div class="feature-content">
+                        <h5>3D Modelling</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <span class="icon icon-desktop"></span>
+                    <div class="feature-content">
+                        <h5>Game Design</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <span class="icon icon-lightbulb"></span>
+                    <div class="feature-content">
+                        <h5>Web Design</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- features -->
 
-	<div id="fix"></div> <!-- This Div here adds a 45px gap at the very top -->
+    <section id="works" class="works section no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/VRChat/image 74.jpg" class="work-box">
+                        <img src="images/VRChat/image 74_display.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>VRChat</h5>
+                                <p>3D Modelling</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/Example of 3D.jpg" class="work-box">
+                        <img src="images/small 3d.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Still life</h5>
+                                <p>3D Modelling</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/Sculpting/redo image 1.PNG" class="work-box">
+                        <img src="images/Sculpting/redo image 1 small.PNG" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Sculpting a Fantasy character</h5>
+                                <p>3D Modelling</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/Example of Design.png" class="work-box">
+                        <img src="images/Example of Design small.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>JavaSctipt</h5>
+                                <p>JavaSctipt Design</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/work-5.jpg" class="work-box">
+                        <img src="images/work-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Project Name</h5>
+                                <p>Website Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/work-6.jpg" class="work-box">
+                        <img src="images/work-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Project Name</h5>
+                                <p>Website Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/work-7.jpg" class="work-box">
+                        <img src="images/work-7.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Project Name</h5>
+                                <p>Website Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    <a href="images/work-8.jpg" class="work-box">
+                        <img src="images/work-8.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Project Name</h5>
+                                <p>Website Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section><!-- works -->
 
-		<div id="sketch-holder">
-		</div> <!--closing div for box -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h5>Location</h5>
+                        <p>Wellington<br>New Zealand</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>Follow on</h5>
+                        <ul class="footer-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/kamal_chaneman"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kamalchaneman"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>About me</h5>
+                        <p>I study Media Design at Victoria University of Wellington.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Copyright © 2015 ActiveBox. All Rights Reserved<br>Made with <i class="fa fa-heart pulse"></i> by <a href="http://kamalchaneman.com/">Kamal Chaneman</a></p>
+                </div>
+            </div>
+        </div>
+    </footer><!-- footer -->
 
-		<div id="box2">
-			<h2>A few examples of my work</h2>
-			<div id="text">
-				<img src="images/Example_gif.gif" width="80%" height="30%">
-				<p>An example of some animation made using Maya 2018.</p>
-			</div>
-
-			<div id="text2">
-				<img src="images/Example of 3D.jpg" width="80%" height="30%">
-				<p>An example of some 3D modelling made using Maya 2017.</p>
-			</div>
-
-			<div id="text3">
-				<img src="images/Example of Design.png" width="50%" height="20%">
-				<p>An example of something made using only polygons in JavaScript.</p>
-			</div>			
-		</div> <!--closing div for box -->
-
-	<div id="fix2"></div>
-	<footer> 
-		<p>Made by Dylan Wansbrough</p>
-    </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       
+        ga('create', 'UA-XXXX-X');
+        ga('send', 'pageview');
+    </script>
 </body>
 </html>
