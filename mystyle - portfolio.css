@@ -52,6 +52,13 @@ p, li{
 	text-align: center;
 }
 
+#box3{
+	margin-left: -0px;
+	margin-right: -10px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
 #text{
 	text-align: center;
 	width: 30%;
@@ -74,6 +81,34 @@ p, li{
 	width: 30%;
 	float: left;
 	margin-left: 3.3%;
+	padding-top: 15px;
+}
+
+#text4{
+	text-align: center;
+	width: 8%;
+	float: left;
+	margin-left: 30%;
+	padding-top: 15px;
+}
+
+#text5{
+	text-align: center;
+	width: 10%;
+	float: left;
+	padding-top: 15px;
+}
+
+#text6{
+	text-align: center;
+	width: 10%;
+	float: left;
+	padding-top: 15px;
+}
+#text7{
+	text-align: center;
+	width: 10%;
+	float: left;
 	padding-top: 15px;
 }
 
