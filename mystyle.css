@@ -147,12 +147,6 @@ a:hover{
 	width: 50%;
 }
 
-#projImage{
-	margin-left: -3%;
-	width: 50%;
-	float: left;
-}
-
 #projText{
 	text-align: justify;
 	float: none;
@@ -163,6 +157,14 @@ a:hover{
 #projTextH1{
 	text-align: center;
 }
+
+#projImage{
+	margin-left: -3%;
+	width: 600px;
+	float: left;
+}
+
+
 
 /*------------------------[Project]-------------------------------*/
 
